@@ -1,0 +1,207 @@
+/* Here you can find the CSS instructions for generic tags like H1, P, A... */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  border: 20px solid #2727E6;
+}
+
+a {
+  color: #2727E6;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #FF5252;
+    text-decoration: underline;
+}
+
+::selection {
+  background: #FFA0A0;
+}
+
+h1{
+  margin-top: 100px;
+  text-align: center;
+  font-family: "josefin slab";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2{
+  margin-top: 100px;
+  text-align: center;
+  font-family: "josefin slab";
+  font-weight: 700;
+  font-size: 40px;
+  color: #2727E6;
+}
+
+h3 {
+  font-family: "jura";
+  font-weight: 700;
+  font-size: 20px;
+  color: #FF5252;
+}
+
+p {
+  font-family: "jura";
+  font-weight: 400;
+}
+
+ul {
+  font-family: "jura";
+  font-weight: 400;
+}
+
+/* Main page (index) starts here */
+
+div.header {
+  display: -webkit-flex;
+  display: flex;
+  font-family: "jura";
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px;
+  color: #2727E6;
+  justify-content: space-between;
+}
+
+img.logo {
+  max-width: 40%;
+}
+
+div.header__buttom {
+  align-self: center;
+  justify-content: flex-end;
+}
+
+div.header__buttom--item {
+  margin-left: 15px;
+  display: inline;
+}
+
+img.container__image--intro {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.container__text {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+div.projects-grid {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  align-self: center;
+  justify-content: space-between;
+}
+
+div.project-box {
+  margin: 15px;
+}
+
+img.projects-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+div.articles-heading {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+div.more {
+  text-align: right;
+  font-family: "jura";
+  font-weight: 400;
+}
+
+div.line-separator {
+height: 1px;
+background: #FFFFFF;
+border-bottom: 1px solid #2727E6;
+}
+
+div.contact {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+div.social-grid {
+  max-width: 30%;
+  display: block;
+  margin: auto;
+  align-self: center;
+  justify-content: space-around;
+}
+
+img.social-img {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 15px;
+}
+
+/* Project demo page starts here */
+
+div.project-page-layout {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  align-self: center;
+  justify-content: space-between;
+}
+
+div.project-column-1 {
+  max-width: 40%;
+  margin: 15px;
+}
+
+div.project-column-2 {
+  max-width: 60%;
+  margin: 15px;
+}
+
+h1.project-title{
+  text-align: left;
+}
+
+img.project-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* Blog demo page starts here */
+
+img.article-img {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+div.article-box {
+  max-width: 560px;
+  display: block;
+  margin: auto;
+  text-align: justify;
+}
